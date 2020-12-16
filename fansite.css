@@ -1,4 +1,42 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+#header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+  font-size: 37px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-content: center;
+  }
+body {
+  background-image: url("https://snworksceo.imgix.net/car/74f047da-f556-4186-afeb-c87bcfc26970.sized-1000x1000.jpeg?w=800");
+  opacity: 0.75;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+body div {
+    background-color: #fff;
+    color: black;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 5;
+    }
+
+* {
+  box-sizing: border-box
+}
+
+.topics {
+        width: 210px;
+        padding-top: 0.5em;
+        padding-right: 0.5em;
+        padding-bottom:0.5em;
+        padding-left:0.5em;
+        border: 2px solid #ccc;
+        display: flex;
+        align-content: left;
+        color: rgb(0, 1, 2);
+}
+a:hover {
+  background-color: yellow;
 }
